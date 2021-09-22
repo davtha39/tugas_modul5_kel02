@@ -1,0 +1,86 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: rgb(40, 44, 52);
+
+}
+
+  
+  header {
+    display: flex;
+    background-color: #20232a;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .title p {
+    color: rgb(97, 218, 251);
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .text {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .text:hover {
+    color: rgb(97, 218, 251);
+    cursor: pointer;
+  }
+  
+  .navtext2 {
+    margin: 0px 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .titleWrapper {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .title {
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+  }
+  
+  input {
+    border: none;
+    background-color: rgb(40, 44, 52);
+    border-bottom: 2px solid rgb(97, 218, 251);
+    padding: 10px 20px 10px 5px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .Button {
+    background-color: rgb(97, 218, 251);
+    color: rgb(40, 44, 52);
+    font-size: 18px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    min-width: 100px;
+  }
+  
+  ol li {
+    color: white;
+  }
+  

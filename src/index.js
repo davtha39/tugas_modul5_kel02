@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Tekkom from './Tekkom';
+import Navbar from './Navbar';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Tekkom />
+    <div>
+      <Navbar />
+    </div>
+    <div>
+      <Tekkom />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
